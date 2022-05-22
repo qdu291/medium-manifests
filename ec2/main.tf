@@ -11,7 +11,7 @@ terraform {
 resource "aws_instance" "web" {
   ami               = "ami-0851b76e8b1bce90b"
   instance_type     = "t3.medium"
-  availability_zone = "ap-south-1b"
+  availability_zone = "ap-southeast-1b"
   tags = {
     Name = "atlantis-medium"
   }
