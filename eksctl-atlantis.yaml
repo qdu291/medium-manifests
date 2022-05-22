@@ -3,8 +3,8 @@ kind: ClusterConfig
 
 metadata:
   name: eks-atlantis-spot-cluster
-  region: ap-south-1
-  version: "1.20"
+  region: ap-southeast-1
+  version: "1.21"
 
 managedNodeGroups:
   - name: eks-atlantis-spot-cluster
@@ -27,7 +27,7 @@ managedNodeGroups:
       k8s.io/cluster-autoscaler/node-template/label/node-type: spot
       k8s.io/cluster-autoscaler/node-template/label/nodegroup-type: spot
       nodegroup-role: worker
-    availabilityZones: ["ap-south-1a", "ap-south-1b"]
+    availabilityZones: ["ap-southeast-1a", "ap-southeast-1b"]
     iam:
       withAddonPolicies:
         autoScaler: true

@@ -1,10 +1,10 @@
 # Replace this with your own repo whitelist:
-orgWhitelist: "github.com/pavan-kumar-99/*"
+orgWhitelist: "github.com/qdu291/*"
 
 github:
-  user: pavan-kumar-99
-  token: ghp_xxxxxxxxx
-  secret: 8xxxxxxxxx
+  user: qdu291
+  token: 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
+  secret: 1vg6ra6duzftf467vv4teur5ebuw4xma
 
 repoConfig: |
  ---
@@ -32,9 +32,9 @@ repoConfig: |
 aws:
   credentials: |
     [default]
-    aws_access_key_id=Axxx
-    aws_secret_access_key=3xxxxxx
-    region=ap-south-1
+    aws_access_key_id=AKIA2QFC7XYSEOKGHNU5
+    aws_secret_access_key=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
+    region=ap-southeast-1
 
 service:
   type: LoadBalancer

@@ -1,9 +1,9 @@
 ## Remote S3 Data Block
 terraform {
   backend "s3" {
-    bucket = "atlantisterraform"
+    bucket = "atlantisterraform-dungo"
     key    = "terraform/atlantisterraform/state"
-    region = "ap-south-1"
+    region = "ap-southeast-1"
   }
 }
 
